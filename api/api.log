@@ -1,0 +1,645 @@
+2013-04-19 18:01:19: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 18:01:19: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 18:01:19: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 18:01:44: SELECT * FROM `notes` WHERE `id` = 1
+2013-04-19 18:01:44: DELETE FROM `tags` WHERE `note_id` = '1';
+2013-04-19 18:01:44: UPDATE `notes` SET `text` = '运动伤痛', `media` = '../archives/2013/04/20130416_223942.jpg' WHERE `id` = '1'
+2013-04-19 18:01:44: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 1, '药品' ), ( 1, '伤痛' ) ;
+2013-04-19 18:01:44: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 18:01:44: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 18:01:44: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:35:37: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:35:37: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:35:37: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:39:11: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:39:11: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:39:11: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:39:16: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:39:16: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:39:16: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:40:46: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:40:46: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:40:46: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:40:48: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:40:48: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:40:48: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:45:52: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:45:52: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:45:52: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:45:55: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:45:55: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:45:55: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:54:47: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:54:47: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:54:47: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:54:52: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:54:52: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:54:52: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:55:49: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:55:49: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:55:49: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:56:00: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:56:00: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:56:00: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:56:04: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '伤痛'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:56:04: SELECT * FROM `notes` WHERE `id` IN ( 1 ) ORDER BY `id` DESC
+2013-04-19 23:56:04: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1 )
+2013-04-19 23:57:21: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:57:21: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:57:21: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-19 23:58:07: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-19 23:58:07: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-19 23:58:07: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:01:59: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:01:59: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:01:59: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:02:16: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:02:16: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:02:16: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:03:29: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:03:29: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:03:29: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:03:36: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:03:36: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:03:36: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:03:44: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:03:44: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:03:44: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:03:52: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:03:52: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:03:52: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:04:42: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '药品'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:04:42: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:04:42: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:04:50: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:04:50: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:04:50: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:08:13: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:08:13: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:08:13: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:08:24: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:08:24: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:08:24: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:08:38: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:08:38: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:08:38: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:08:41: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '药品'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:08:41: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:08:41: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:08:45: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:08:45: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:08:45: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:10:14: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:10:14: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:10:14: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:10:16: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:10:16: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:10:16: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:13:35: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:13:35: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:13:35: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:13:37: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:13:37: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:13:37: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:13:47: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:13:47: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:13:47: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:15:38: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:15:38: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:15:38: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:15:42: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:15:42: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:15:42: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:16:59: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:16:59: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:16:59: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:17:01: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:17:01: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:17:01: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:17:37: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:17:37: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:17:37: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:17:41: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:17:41: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:17:41: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:17:50: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:17:50: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:17:50: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:18:24: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:18:24: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:18:24: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:24:22: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:24:22: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:24:22: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:24:41: INSERT INTO `notes` (`text`, `media`) VALUES ('测试文字', '');
+2013-04-20 00:24:42: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 15, '测试标签' ) ;
+2013-04-20 00:24:42: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:24:42: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15 ) ORDER BY `id` DESC
+2013-04-20 00:24:42: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15 )
+2013-04-20 00:24:47: SELECT `tag` FROM `tags` WHERE `note_id` = 15
+2013-04-20 00:24:47: SELECT * FROM `notes` WHERE `id` = 15
+2013-04-20 00:24:47: DELETE FROM `tags` WHERE `note_id` = '15';
+2013-04-20 00:24:47: DELETE FROM `notes` WHERE `note_id` = '15';
+2013-04-20 00:24:47: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:24:47: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:24:47: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:24:53: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '药品'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:24:53: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:24:53: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:26:02: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:26:02: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:26:02: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:30:12: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:30:12: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:30:12: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:30:14: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:30:14: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:30:14: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 00:42:32: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 00:42:32: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 00:42:32: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:06:00: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:06:00: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:06:00: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:06:07: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '药品'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:06:07: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:06:07: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:07:01: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:07:01: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:07:01: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:07:23: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:07:23: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:07:23: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:07:51: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:07:51: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:07:51: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:07:59: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:07:59: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:07:59: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:08:02: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:08:02: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:08:02: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:08:20: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:08:20: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:08:20: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:08:55: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:08:55: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:08:55: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:09:16: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:09:16: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:09:16: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:09:30: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:09:30: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:09:30: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:09:48: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:09:48: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:09:48: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:10:58: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:10:58: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:10:58: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:11:05: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:11:05: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:11:05: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:16:30: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:16:30: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:16:30: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:21:42: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:21:42: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:21:42: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:21:45: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:21:45: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:21:45: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:21:56: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:21:56: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:21:56: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:23:19: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:23:19: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:23:19: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:23:21: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:23:21: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:23:21: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:23:31: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:23:31: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:23:31: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:23:36: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:23:36: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:23:36: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:24:44: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:24:44: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:24:44: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:26:07: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:26:07: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:26:07: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:26:22: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:26:22: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:26:22: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:33:31: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:33:31: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:33:31: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:33:33: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:33:33: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:33:33: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:33:34: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:33:34: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:33:34: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:33:41: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:33:41: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:33:41: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:33:53: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:33:53: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:33:53: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:34:04: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:34:04: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:34:04: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:35:52: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:35:52: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:35:52: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:35:53: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:35:53: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:35:53: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:35:54: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:35:54: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:35:54: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 01:36:01: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 01:36:01: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 01:36:01: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 14:17:19: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 14:17:19: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-20 14:17:19: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-20 14:19:20: INSERT INTO `notes` (`text`, `media`) VALUES ('spa', '');
+2013-04-20 14:19:20: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 16, '1122' ) ;
+2013-04-20 16:15:47: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 16:15:47: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16 ) ORDER BY `id` DESC
+2013-04-20 16:15:47: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16 )
+2013-04-20 20:50:07: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 20:50:07: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16 ) ORDER BY `id` DESC
+2013-04-20 20:50:07: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16 )
+2013-04-20 20:50:18: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '1122'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 20:50:18: SELECT * FROM `notes` WHERE `id` IN ( 16 ) ORDER BY `id` DESC
+2013-04-20 20:50:18: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 16 )
+2013-04-20 20:50:21: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '1122'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-20 20:50:21: SELECT * FROM `notes` WHERE `id` IN ( 16 ) ORDER BY `id` DESC
+2013-04-20 20:50:21: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 16 )
+2013-04-21 18:42:11: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:42:11: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16 ) ORDER BY `id` DESC
+2013-04-21 18:42:11: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16 )
+2013-04-21 18:42:26: SELECT `tag` FROM `tags` WHERE `note_id` = 16
+2013-04-21 18:42:26: SELECT * FROM `notes` WHERE `id` = 16
+2013-04-21 18:42:26: DELETE FROM `tags` WHERE `note_id` = '16';
+2013-04-21 18:42:26: DELETE FROM `notes` WHERE `note_id` = '16';
+2013-04-21 18:42:27: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:42:27: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:42:27: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:42:55: SELECT * FROM `notes` WHERE `id` = 2
+2013-04-21 18:42:55: DELETE FROM `tags` WHERE `note_id` = '2';
+2013-04-21 18:42:55: UPDATE `notes` SET `text` = '膏药', `media` = '../archives/2013/04/20130416_224025.jpg' WHERE `id` = '2'
+2013-04-21 18:42:55: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 2, '药品' ), ( 2, '伤痛' ) ;
+2013-04-21 18:42:55: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:42:55: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:42:55: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:43:24: SELECT * FROM `notes` WHERE `id` = 3
+2013-04-21 18:43:24: DELETE FROM `tags` WHERE `note_id` = '3';
+2013-04-21 18:43:24: UPDATE `notes` SET `text` = '肠胃药', `media` = '../archives/2013/04/20130416_224139.jpg' WHERE `id` = '3'
+2013-04-21 18:43:24: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 3, '药品' ), ( 3, '肠胃' ) ;
+2013-04-21 18:43:24: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:43:24: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:43:24: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:43:40: SELECT * FROM `notes` WHERE `id` = 4
+2013-04-21 18:43:40: DELETE FROM `tags` WHERE `note_id` = '4';
+2013-04-21 18:43:40: UPDATE `notes` SET `text` = '肠胃药', `media` = '../archives/2013/04/20130416_224219.jpg' WHERE `id` = '4'
+2013-04-21 18:43:40: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 4, '药品' ), ( 4, '肠胃' ) ;
+2013-04-21 18:43:40: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:43:40: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:43:40: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:43:58: SELECT * FROM `notes` WHERE `id` = 5
+2013-04-21 18:43:58: DELETE FROM `tags` WHERE `note_id` = '5';
+2013-04-21 18:43:58: UPDATE `notes` SET `text` = '增强睡眠', `media` = '../archives/2013/04/20130416_230637.jpg' WHERE `id` = '5'
+2013-04-21 18:43:58: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 5, '药品' ), ( 5, '睡眠' ) ;
+2013-04-21 18:43:58: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:43:58: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:43:58: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:44:13: SELECT * FROM `notes` WHERE `id` = 6
+2013-04-21 18:44:13: DELETE FROM `tags` WHERE `note_id` = '6';
+2013-04-21 18:44:13: UPDATE `notes` SET `text` = '增强睡眠', `media` = '../archives/2013/04/20130416_230733.jpg' WHERE `id` = '6'
+2013-04-21 18:44:13: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 6, '药品' ), ( 6, '睡眠' ) ;
+2013-04-21 18:44:13: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:44:13: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:44:13: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:44:34: SELECT * FROM `notes` WHERE `id` = 7
+2013-04-21 18:44:34: DELETE FROM `tags` WHERE `note_id` = '7';
+2013-04-21 18:44:34: UPDATE `notes` SET `text` = '女性肠胃药', `media` = '../archives/2013/04/20130416_230828.jpg' WHERE `id` = '7'
+2013-04-21 18:44:34: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 7, '药品' ), ( 7, '肠胃' ), ( 7, '女性' ) ;
+2013-04-21 18:44:35: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:44:35: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:44:35: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:44:52: SELECT * FROM `notes` WHERE `id` = 8
+2013-04-21 18:44:52: DELETE FROM `tags` WHERE `note_id` = '8';
+2013-04-21 18:44:52: UPDATE `notes` SET `text` = '增强睡眠', `media` = '../archives/2013/04/20130416_230908.jpg' WHERE `id` = '8'
+2013-04-21 18:44:52: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 8, '药品' ), ( 8, '睡眠' ) ;
+2013-04-21 18:44:52: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:44:52: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:44:52: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:45:11: SELECT * FROM `notes` WHERE `id` = 9
+2013-04-21 18:45:11: DELETE FROM `tags` WHERE `note_id` = '9';
+2013-04-21 18:45:11: UPDATE `notes` SET `text` = '增强睡眠', `media` = '../archives/2013/04/20130416_230931.jpg' WHERE `id` = '9'
+2013-04-21 18:45:11: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 9, '药品' ), ( 9, '睡眠' ) ;
+2013-04-21 18:45:12: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:45:12: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:45:12: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:45:33: SELECT * FROM `notes` WHERE `id` = 10
+2013-04-21 18:45:33: DELETE FROM `tags` WHERE `note_id` = '10';
+2013-04-21 18:45:33: UPDATE `notes` SET `text` = '消炎药', `media` = '../archives/2013/04/20130416_231029.jpg' WHERE `id` = '10'
+2013-04-21 18:45:33: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 10, '药品' ), ( 10, '消炎' ) ;
+2013-04-21 18:45:33: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:45:33: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:45:33: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:45:54: SELECT * FROM `notes` WHERE `id` = 11
+2013-04-21 18:45:54: DELETE FROM `tags` WHERE `note_id` = '11';
+2013-04-21 18:45:54: UPDATE `notes` SET `text` = '清热化痰', `media` = '../archives/2013/04/20130416_231112.jpg' WHERE `id` = '11'
+2013-04-21 18:45:54: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 11, '药品' ), ( 11, '止咳' ) ;
+2013-04-21 18:45:55: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:45:55: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:45:55: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:46:10: SELECT * FROM `notes` WHERE `id` = 12
+2013-04-21 18:46:10: DELETE FROM `tags` WHERE `note_id` = '12';
+2013-04-21 18:46:10: UPDATE `notes` SET `text` = '山寨白加黑，治感冒', `media` = '../archives/2013/04/20130416_231145.jpg' WHERE `id` = '12'
+2013-04-21 18:46:10: INSERT INTO `tags` (`note_id`, `tag`) VALUES ( 12, '药品' ), ( 12, '感冒' ) ;
+2013-04-21 18:46:11: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:46:11: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:46:11: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 18:46:16: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '睡眠'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:46:16: SELECT * FROM `notes` WHERE `id` IN ( 5, 6, 8, 9 ) ORDER BY `id` DESC
+2013-04-21 18:46:16: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 5, 6, 8, 9 )
+2013-04-21 18:46:26: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 18:46:26: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 18:46:26: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 21:17:53: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 21:17:53: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 21:17:53: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-21 21:18:34: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-21 21:18:34: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-21 21:18:34: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-22 19:15:29: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-22 19:15:29: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-22 19:15:29: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-04-22 19:17:50: SELECT `note_id` as `id` FROM `tags`  WHERE `tag` = '睡眠'
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-22 19:17:50: SELECT * FROM `notes` WHERE `id` IN ( 5, 6, 8, 9 ) ORDER BY `id` DESC
+2013-04-22 19:17:50: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 5, 6, 8, 9 )
+2013-04-22 19:17:53: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-04-22 19:17:53: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-04-22 19:17:53: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-08-10 02:15:29: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-08-10 02:15:29: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-08-10 02:15:29: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-08-10 02:17:41: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-08-10 02:17:41: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-08-10 02:17:41: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-08-10 02:21:02: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-08-10 02:21:02: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-08-10 02:21:02: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-08-10 02:21:34: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-08-10 02:21:34: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-08-10 02:21:34: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-08-10 02:21:47: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-08-10 02:21:47: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-08-10 02:21:47: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-08-10 02:25:01: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-08-10 02:25:01: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-08-10 02:25:01: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )
+2013-08-10 02:27:35: SELECT `note_id` as `id` FROM `tags` 
+        GROUP BY `note_id`
+        LIMIT 0, 30
+2013-08-10 02:27:35: SELECT * FROM `notes` WHERE `id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ) ORDER BY `id` DESC
+2013-08-10 02:27:35: SELECT `tag`, `note_id` FROM `tags` WHERE `note_id` IN ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 )

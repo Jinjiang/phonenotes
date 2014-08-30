@@ -1,0 +1,14 @@
+CACHE MANIFEST
+#version 041921
+
+CACHE:
+jquery-1.9.1.js
+canvas-to-blob.js
+style.css
+script.js
+bootstrap/css/bootstrap.css
+bootstrap/css/bootstrap-responsive.css
+bootstrap/js/bootstrap.js
+
+NETWORK:
+*
